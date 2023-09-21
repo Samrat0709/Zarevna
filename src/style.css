@@ -4,6 +4,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
 
+@font-face {
+    font-family: Konseric Luxury Serif;
+    src: url("../src/FontsFree-Net-KonsericLuxurySerif-Regular.ttf");
+}
+@font-face {
+    font-family: Mont;
+    src: url("../src/Mont-ExtraLightDEMO.otf");
+}
+@font-face {
+    font-family: Cherston;
+    src: url("../src/Cherston\ Light.otf");
+}
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +26,7 @@ body {
 }
 
 #navbar {
-    padding: 1rem 6rem;
+    padding: 1rem 4.5rem;
     display: flex;
     justify-content: space-between;
 }
@@ -33,8 +45,8 @@ body {
 
 #navbar .left .brand h1 {
     color: #000;
-    font-family: 'Konseric Luxury Serif';
-    font-size: 2.2rem;
+    font-family: 'Konseric Luxury Serif',sans-serif;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     text-transform: uppercase;
@@ -42,10 +54,10 @@ body {
 
 #navbar .left .tabs .tab {
     color: #000;
-    font-family: 'Mont' sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Mont', sans-serif;
+    font-size: 1.1rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
 }
@@ -70,11 +82,10 @@ body {
     gap: 2rem;
 }
 
-#navbar .right .icons .icon {
-    font-size: 1.6rem;
-    stroke-width: 2px;
-    stroke: #000;
+#navbar .right .icons .icon span{
+    font-size: 1.5rem;
     color: #000;
+    font-weight: 300;
 }
 
 #top {
@@ -99,16 +110,16 @@ body {
 
 #collection .collection h2 {
     color: #000;
-    font-family: 'Cherston';
-    font-size: 3rem;
+    font-family: 'Cherston', sans-serif;
+    font-size: 2.8rem;
     font-style: normal;
-    font-weight: 100;
+    font-weight: 50;
     line-height: normal;
     text-transform: uppercase;
 }
 
 #collection .card-container {
-    padding-top: 4rem;
+    padding-top: 0;
     display: flex;
     width: 100%;
     flex-wrap: wrap;
@@ -162,7 +173,7 @@ body {
     font-size: 1rem;
     text-decoration: none;
     color: #000;
-    font-family: 'Mont';
+    font-family: 'Mont',sans-serif;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -196,22 +207,19 @@ body {
 
 #collection .text-container .rs p {
     color: #000;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mont', sans-serif;
     font-size: 1.6rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 1000;
     line-height: normal;
 }
 
 #collection .text-container .rs span {
-    color: #000;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mont', sans-serif;
     font-size: 1.6rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 1000;
     color: #838383;
-    font-weight: 400;
-    line-height: normal;
     text-decoration: line-through;
 }
 
@@ -261,12 +269,12 @@ body {
 }
 
 #footer .footer-container {
-    padding: 6rem 10rem;
+    padding: 5.4rem 10rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 3rem;
+    gap: 4rem;
 }
 
 #footer .footer-container .items {
@@ -309,8 +317,8 @@ body {
 #footer .footer-container h1 {
     color: #000;
     text-align: center;
-    font-family: 'Konseric Luxury Serif';
-    font-size: 6rem;
+    font-family: 'Konseric Luxury Serif',sans-serif;
+    font-size: 4.4rem;
     font-weight: 100;
     text-transform: uppercase;
 }
@@ -318,8 +326,8 @@ body {
 #footer .footer-container .bottom p {
     color: #000;
     text-align: center;
-    font-family: 'Poppins';
-    font-size: 0.9rem;
+    font-family: 'Poppins',sans-serif;
+    font-size: 0.8rem;
     font-style: normal;
     font-weight: 275;
     line-height: normal;
